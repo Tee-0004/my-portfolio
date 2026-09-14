@@ -107,10 +107,10 @@ function Skills() {
 
         {/* Bottom Statement */}
         <div className="mt-16 flex flex-col gap-5 border-t border-gray-200 pt-8 md:flex-row md:items-center md:justify-between">
-          <p className="max-w-lg text-sm leading-7 text-white">
+          <p className="max-w-lg text-sm leading-7 text-gray-900 dark:text-white">
             I'm continuously learning through hands-on projects, experimenting with new technologies, and improving with every project I build.
             </p>
-          <span className="text-xs uppercase tracking-[0.25em] text-white">
+          <span className="text-xs uppercase tracking-[0.25em] text-gray-900 dark:text-white">
             Always Learning
           </span>
         </div>
