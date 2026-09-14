@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* =========================================
+   DARK MODE - WHOLE WEBSITE
+   ========================================= */
+
+.dark {
+  background-color: #111111;
+  color: #f5f3ef;
+}
+
+.dark section {
+  background-color: #111111;
+  color: #f5f3ef;
+}
+
+
+/* =========================================
+   GENERAL TEXT
+   ========================================= */
+
+.dark .bg-white {
+  background-color: #111111 !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: #1a1a1a !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1f1f1f !important;
+}
+
+.dark .text-black,
+.dark .text-gray-900,
+.dark .text-gray-800 {
+  color: #f5f3ef !important;
+}
+
+.dark .text-gray-700 {
+  color: #e5e5e5 !important;
+}
+
+.dark .text-gray-600 {
+  color: #cccccc !important;
+}
+
+
+/* =========================================
+   ABOUT SECTION
+   ========================================= */
+
+/* Make About headings bright */
+.dark #about h1,
+.dark #about h2,
+.dark #about h3 {
+  color: #f5f3ef !important;
+  opacity: 1 !important;
+}
+
+/* Make About paragraphs bright */
+.dark #about p {
+  color: #f5f3ef !important;
+  opacity: 1 !important;
+}
+
+
+/* =========================================
+   SKILLS SECTION
+   ========================================= */
+
+/* Keep skill icons bright */
+.dark #skills svg,
+.dark #skills img {
+  opacity: 1 !important;
+}
+
+/* Stop icons from becoming dim when hovered */
+.dark #skills .group:hover svg,
+.dark #skills .group:hover img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Keep skill names bright */
+.dark #skills h1,
+.dark #skills h2,
+.dark #skills h3,
+.dark #skills p,
+.dark #skills span {
+  opacity: 1 !important;
+}
+
+
+/* =========================================
+   PROJECTS SECTION
+   ========================================= */
+
+/* Keep project text bright */
+.dark #projects h1,
+.dark #projects h2,
+.dark #projects h3,
+.dark #projects p,
+.dark #projects span {
+  opacity: 1 !important;
+}
+
+
+/* VIEW LIVE PROJECT BUTTON */
+
+.dark #projects .live-project-button {
+  background-color: #414d6b !important;
+  color: #f5f3ef !important;
+  opacity: 1 !important;
+  transition: background-color 0.3s ease;
+}
+
+.dark #projects .live-project-button:hover {
+  background-color: #4d5b7d !important;
+  color: #ffffff !important;
+}
+
+
+/* =========================================
+   CONTACT SECTION
+   ========================================= */
+
+/* Contact heading/label */
+.dark #contact h1,
+.dark #contact h2,
+.dark #contact h3,
+.dark #contact label {
+  color: #f5f3ef !important;
+  opacity: 1 !important;
+}
+
+/* Contact paragraph */
+.dark #contact p {
+  color: #f5f3ef !important;
+  opacity: 1 !important;
+}
+
+/* EMAIL and GITHUB labels */
+.dark #contact span {
+  color: #f5f3ef !important;
+  opacity: 1 !important;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.dark footer {
+  color: #f5f3ef;
+}
+
+.dark footer h1,
+.dark footer h2,
+.dark footer h3,
+.dark footer p,
+.dark footer span,
+.dark footer a {
+  opacity: 1 !important;
+}
